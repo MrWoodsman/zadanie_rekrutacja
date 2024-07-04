@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthrohard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="popup" id="popup">
+        <div id="popup_content">
+            <button id="close_popup" onclick="hidePopup()">
+                <img src="images/close_btn.svg" alt="Close button">
+            </button>
+            <h3 id="popup_id">ID:</h3>
+            <h3 id="popup_name">Nazwa:</h3>
+            <h3 id="popup_value">Wartość:</h3>
+        </div>
+    </div>
+
+    <nav id="navbar">
+        <div class="content">
+            <img src="images/logo.svg" alt="Logo strony" class="navbar_logo">
+            <div class="navbar_menu">
+                <a class="navbar_menu_item" href="#stand_out">CO NAS WYRÓŻNIA</a>
+                <a class="navbar_menu_item" href="#composition">SKŁAD</a>
+                <a class="navbar_menu_item bold" href="#products">PRODUKTY</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="content">
+            <img src="/images/hero_image.png" alt="Zdjęcie produktu" style="max-height: 600px; max-width: 100%;">
+            <div class="hero_text_wrap">
+                <img src="images/logo.svg" alt="Logo strony" style="height: calc(7vw + .1rem); max-height: 70px;">
+                <h1 class="gradient balance" style="font-size: clamp(1rem, calc(5vw + .1rem), 2.5rem)">Lab-V Arthrohard
+                    Preparat na wsparcie stawów dla psa i kota</h1>
+                <p>Arthrohard to dobrze przyswajalny suplement diety w formie syropu, stworzony z myślą o stawach
+                    Twojego
+                    psa lub kota.</p>
+                <button>Kup teraz</button>
+            </div>
+        </div>
+    </section>
+
+    <div style="position: absolute; z-index: -1; width: 100%; transform: translateY(-225px); user-select: none;">
+        <img src="/images/hero_back.svg" style="width: 100%;">
+    </div>
+
+    <section class="stand_out margin_scroll_sections" id="stand_out">
+        <div class="content">
+            <h1 class="gradient_2 underlane" style="text-align: center;">Co wyróżnia nasz preparat</h1>
+            <div class="distinctions_list">
+                <div class="distinctions_list_item">
+                    <div class="title_wrap">
+                        <h2 class="text">Innowacyjny dodatek - Czarciego Pazura</h2>
+                        <hr>
+                    </div>
+                    <p class="description">Zapewnia dodatkowe wsparcie w zwalczaniu stanów bólowych i zapalnych.
+                        Skoncentrowane składniki aktywne, opracowane we współpracy z lekarzami weterynarii, przynoszą
+                        szybkie i zauważalne efekty, szczególnie korzystne dla zwierząt z poważnymi problemami
+                        stawowymi.</p>
+                    <div class="img_placeholder">
+                        <img src="images/img_1.png" alt="Czarci pazur">
+                    </div>
+                    <hr class="hover_action">
+                </div>
+
+                <div class="distinctions_list_item">
+                    <div class="title_wrap">
+                        <h2 class="text">Wygoda - dwa sposoby podawania</h2>
+                        <hr>
+                    </div>
+                    <div class="step_list">
+                        <div class="step_list_step">
+                            <h3 class="step_list_step_num">1</h3>
+                            <p class="description">Bezpośrednio do pyszczka</p>
+                        </div>
+                        <div class="step_list_step">
+                            <h3 class="step_list_step_num">2</h3>
+                            <p class="description">Zmieszany z karmą</p>
+                        </div>
+                    </div>
+                    <div class="img_placeholder">
+                        <img src="images/img_2.png" alt="Piesek">
+                        <img src="images/img_3.png" alt="Piesek je">
+                    </div>
+                    <hr class="hover_action">
+                </div>
+
+                <div class="distinctions_list_item">
+                    <div class="title_wrap">
+                        <h2 class="text">Skuteczność - skoncentrowana dawka</h2>
+                        <hr>
+                    </div>
+                    <p class="description"><b>Tylko jedna porcja dziennie.</b> To nie tylko wygoda, ale również
+                        gwarancja, że Twoje zwierzę otrzymuje wszystko, czego potrzebuje, aby cieszyć się zdrowiem i
+                        aktywnością na długo. Skorzystaj z zalet Arthrohard i zobacz różnicę w komforcie życia swojego
+                        zwierzęcia.</p>
+                    <div class="img_placeholder">
+                        <img src="images/img_4.png" alt="Strzykawka">
+                    </div>
+                    <hr class="hover_action">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="composition margin_scroll_sections" id="composition">
+        <div class="content">
+            <h1 class="gradient_2 underlane" style="text-align: center;">Skład w 5ml</h1>
+            <h2 style="font-weight: 450;">Co dają poszczególne składniki:</h2>
+
+            <div class="composition_info_wrap">
+                <div class="composition_info_wrap_small grid">
+                    <div class="composition_info_wrap_small_card">
+                        <div class="image_placeholder"></div>
+                        <div class="text_wrap">
+                            <h2 class="title">Siarczan glukozaminy</h2>
+                            <hr>
+                            <p class="count">650 mg</p>
+                        </div>
+                        <p class="description">Glukozamina jest naturalnym składnikiem chrząstki. Dodatek
+                            glukozaminy przyczynia się do zwiększenia produkcji glikozaminoglikanów (m.in. siarczanu
+                            keratanu, heparanu, kwasu hialuronowego), które pomagają w odbudowie chrząstki, co jest
+                            szczególnie korzystne dla zwierząt ze zmianami zwyrodnieniowymi stawów.</p>
+                    </div>
+                    <div class="composition_info_wrap_small_card">
+                        <div class="image_placeholder"></div>
+                        <div class="text_wrap">
+                            <h2 class="title">Siarczan chondroityny</h2>
+                            <hr>
+                            <p class="count">300 mg</p>
+                        </div>
+                        <p class="description">Chondroityna, podobnie jak glukozamina, jest składnikiem chrząstki.
+                            Chondroityna pomaga zwalczać enzymy, które niszczą chrząstkę, a także pomaga chrząstce
+                            zatrzymać wodę, co jest ważne dla jej sprężystości i absorpcji wstrząsów.</p>
+                    </div>
+                    <div class="composition_info_wrap_small_card">
+                        <div class="image_placeholder"></div>
+                        <div class="text_wrap">
+                            <h2 class="title">Kwas hialuronowy</h2>
+                            <hr>
+                            <p class="count">50 mg</p>
+                        </div>
+                        <p class="description">Kwas hialuronowy jest kluczowym składnikiem płynu stawowego, który
+                            działa jak smar i amortyzator dla stawów. Suplementacja kwasem hialuronowym może pomóc w
+                            utrzymaniu prawidłowej objętości i konsystencji płynu stawowego.</p>
+                    </div>
+                </div>
+                <div class="composition_info_wrap_small flex">
+                    <img src="/images/product_composition.png" alt="Zdjęcie produktu" style="max-width: 350px;">
+                    <button class="red">Kup teraz</button>
+                </div>
+                <div class="composition_info_wrap_small grid">
+                    <div class="composition_info_wrap_small_card">
+                        <div class="image_placeholder"></div>
+                        <div class="text_wrap">
+                            <h2 class="title">Czarci pazur</h2>
+                            <hr>
+                            <p class="count">250 mg</p>
+                        </div>
+                        <p class="description">Czarci pazur jest rośliną, która ma właściwości przeciwzapalne i
+                            przeciwbólowe. Może to pomóc zwierzętom, które doświadczają bólu i stanu zapalnego
+                            związanego z problemami ze stawami.</p>
+                    </div>
+                    <div class="composition_info_wrap_small_card">
+                        <div class="image_placeholder"></div>
+                        <div class="text_wrap">
+                            <h2 class="title">Witamina C</h2>
+                            <hr>
+                            <p class="count">50 mg</p>
+                        </div>
+                        <p class="description">Witamina C jest potężnym przeciwutleniaczem, który może pomóc w
+                            ochronie stawów poprzez neutralizację wolnych rodników, które mogą uszkadzać chrząstkę.
+                            Ponadto, witamina C odgrywa ważną rolę w produkcji kolagenu, kluczowego składnika chrząstki.
+                        </p>
+                    </div>
+                    <div class="composition_info_wrap_small_card">
+                        <div class="image_placeholder"></div>
+                        <div class="text_wrap">
+                            <h2 class="title">MSM</h2>
+                            <hr>
+                            <p class="count">250 mg</p>
+                        </div>
+                        <p class="description">Metylosulfonylometan, czyli MSM, to naturalny związek siarki, który
+                            pomaga w utrzymaniu zdrowych stawów poprzez zmniejszenie stanu zapalnego i bólu. MSM może
+                            również pomagać w produkcji kolagenu, co przyczynia się do zdrowia chrząstki stawowej.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="paralax">
+            <img style="width: 100%; max-width: 1000px;" src="/images/piesek.png" alt="Piesek">
+        </div>
+    </section>
+
+    <section class="products margin_scroll_sections" id="products">
+        <div class="content">
+            <div class="select_input">
+                <p>liczba produktów na stronie</p>
+                <select name="products_on_page" id="products_on_page" onchange="updatePageLength(this)">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                </select>
+            </div>
+
+            <div class="products_list" id="products_list"></div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
