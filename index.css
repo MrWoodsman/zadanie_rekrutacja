@@ -104,6 +104,12 @@ nav > .content {
   font-weight: 450;
   color: black;
   position: relative;
+  text-align: center;
+}
+@media only screen and (max-width: 750px) {
+  .navbar_menu_item {
+    font-size: 0.8rem;
+  }
 }
 .navbar_menu_item.active::after {
   content: "";
@@ -417,9 +423,12 @@ nav > .content {
   font-weight: 700;
   color: white;
   background: rgb(173, 72, 68);
+  border-radius: 0;
+  border: none;
 }
 
 .popup {
+  padding: 1rem;
   display: none;
   position: fixed;
   z-index: 150;
