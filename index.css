@@ -128,6 +128,7 @@ nav > .content {
 }
 .hero_text_wrap {
   width: 100%;
+  flex: 2 2 400px;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -391,7 +392,7 @@ nav > .content {
   width: 100%;
   display: flex;
   justify-content: center;
-  background: url("/images/piesek_back.svg");
+  background: url("images/piesek_back.svg");
   background-size: 100%;
   background-position: center bottom;
   background-repeat: no-repeat;
