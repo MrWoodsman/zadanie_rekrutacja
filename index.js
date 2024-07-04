@@ -85,7 +85,7 @@ function loadFromAPI(pageNum) {
         })
 }
 
-function updatePageLenght(e) {
+function updatePageLength(e) {
     products_list.innerHTML = ``
     loadFromAPI(0)
 }
